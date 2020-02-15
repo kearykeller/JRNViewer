@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JRNViewer.exe" version="1.0.0.1" publicKeyToken="d9015abb3c533849" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JRNViewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="JRNViewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JRNViewer.exe" size="107008">
+      <assemblyIdentity name="JRNViewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fihJ4G96vRAUydP1IW5GnMnr6Jk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="JRNViewer.exe.config" size="1138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3ZzjYIALbWWpA4wVIL8RvdUyiuI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KearyKeller-Lap\Keary Keller" issuerKeyHash="91c673818cffdc5cc7a83a934849dd50b6db5361" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EDma/v6UZphfFWTby3V2W3V0FAI=</DigestValue></Reference></SignedInfo><SignatureValue>TWXLFEJKFX/6eJEORJU4EjxFVrcz5vzOWV6I4pXwB+99cVT0xhSZGLzyU1g7oGAtSWJsjn0/V6z0nGDSfvYGL9sDdlsQNzbjf3TKdfZy10kCAviMqc/2VNGx5exUj5M9Dov0xbUtr/39R0UXwxeEhvKBr9g8co8PAmOWBRfv2Bc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ttzZCFjLjlEwZU23xyjA+tC41UJ7x/+RB8fvd+PwJykgN1j3GhOj2SVYFECuJUuC+FfttyOoLfSVEN0TcK1bDBPT6xbww9bmr2rYUf+DqY9Edo/54spS4vi2/JshrTQMpmvYvuzpkw/1ziGrb5lrtUIlI8VgjcLkOBMOnpxYBJE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="021474755b7675cbdb64155f986694fefe9a3910" Description="" Url=""><as:assemblyIdentity name="JRNViewer.exe" version="1.0.0.1" publicKeyToken="d9015abb3c533849" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KearyKeller-Lap\Keary Keller</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZdPWN/mVl0P98jNt8PJLzZ5rKoo=</DigestValue></Reference></SignedInfo><SignatureValue>mFXQEG0lvdzDZTySOe9G3JrViK4fkx+Q4sef3PC3itxjs0yu+v7uSYQQ/gPNJxY9sES9s12kHxTEjaUIBc/Nbl5wjemJBse68m3NERlF6THhYjmgJ+gPLi+lJJ9ghKSGXQbu2M5xqNOTX+y+Nlceh4A5AkqJsT7Z9aOeFniCyAM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ttzZCFjLjlEwZU23xyjA+tC41UJ7x/+RB8fvd+PwJykgN1j3GhOj2SVYFECuJUuC+FfttyOoLfSVEN0TcK1bDBPT6xbww9bmr2rYUf+DqY9Edo/54spS4vi2/JshrTQMpmvYvuzpkw/1ziGrb5lrtUIlI8VgjcLkOBMOnpxYBJE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQGSSz7HsjvotIXyRuzkO+FTANBgkqhkiG9w0BAQUFADBDMUEwPwYDVQQDHjgASwBlAGEAcgB5AEsAZQBsAGwAZQByAC0ATABhAHAAXABLAGUAYQByAHkAIABLAGUAbABsAGUAcjAeFw0xNDA1MjMxNjQ2MzJaFw0xNTA1MjMyMjQ2MzJaMEMxQTA/BgNVBAMeOABLAGUAYQByAHkASwBlAGwAbABlAHIALQBMAGEAcABcAEsAZQBhAHIAeQAgAEsAZQBsAGwAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC23NkIWMuOUTBlTbfHKMD60LjVQnvH/5EHx+934/AnKSA3WPcaE6PZJVgUQK4lS4L4V+23I6gt9JUQ3RNwrVsME9PrFvDD1uavathR/4Opj0R2j/niylLi+Lb8myGtNAyma9i+7OmTD/XOIatvmWu1QiUjxWCNwuQ4Ew6enFgEkQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACRCxUrldLHW0IJReyXzz8TNNtWxNaa/fKrJ5IlX3uw47XSFPscq8k0JaaaSuhSgHN2iJGoOrFrb2x4XpXOSTSftBcvL9/KD5YSySrSewnmLlL1DNN/sNIHRJ1C0+7dBZLNULIi2qvyegPD7aQuezJngccOYYgtfA6LqngidwngL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
